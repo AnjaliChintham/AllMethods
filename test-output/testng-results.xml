@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67" started-at="2020-02-19T04:26:29Z" finished-at="2020-02-19T04:26:29Z">
+    <groups>
+      <group name="functional testing">
+        <method signature="DependsonGroups.logIn()[pri:0, instance:demo.DependsonGroups@74ad1f1f]" name="logIn" class="demo.DependsonGroups"/>
+      </group> <!-- functional testing -->
+      <group name="Smoke testing">
+        <method signature="DependsonGroups.logIn()[pri:0, instance:demo.DependsonGroups@74ad1f1f]" name="logIn" class="demo.DependsonGroups"/>
+      </group> <!-- Smoke testing -->
+    </groups>
+    <test name="Test" duration-ms="67" started-at="2020-02-19T04:26:29Z" finished-at="2020-02-19T04:26:29Z">
+      <class name="demo.DependsonGroups">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:demo.DependsonGroups@74ad1f1f]" name="logIn" duration-ms="16" started-at="2020-02-19T04:26:29Z" finished-at="2020-02-19T04:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- demo.DependsonGroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
